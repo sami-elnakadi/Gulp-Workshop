@@ -19,6 +19,7 @@ Pour accomplir vos premiers exploits avec Gulp, vous n'aurez besoin que de :
     <li>node.js</li>
     <li>ne pas être trop allergique à la ligne de commande</li>
 </ul>
+
 ## Installer Gulp
 
 Dès que Node.js est installé, ouvrez un terminal de commande n'importe où, et tapez:
