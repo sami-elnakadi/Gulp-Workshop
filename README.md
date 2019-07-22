@@ -3,21 +3,22 @@
 Gulp est un "Automatiseur de tâches", un task runner comme disent nos amis anglophones, c'est à dire qu'il est capable de lancer des bouts de scripts à votre place tout seul comme un grand.
 Ces tâches dépendent de votre bon vouloir et peuvent être très variées :
 <ul>
-    <li>• des opérations simples telles que minifier ou concaténer du CSS ou du JavaScript,</li>
-    <li>• la création ou la suppression de dossiers ou de fichiers (possibilité de créer un projet à partir de zéro),</li>
-    <li>• l'optimisation, la compression d'images,</li>
-    <li>• la création de serveur local permettant de tester sur de multiples périphériques en même temps,</li>
-    <li>• la simulation de navigateurs fantômes conçus pour parcourir et tester les régressions d'affichage d'une page,</li>
-    <li>• etc.</li>
+    <li>des opérations simples telles que minifier ou concaténer du CSS ou du JavaScript,</li>
+    <li>la création ou la suppression de dossiers ou de fichiers (possibilité de créer un projet à partir de zéro),</li>
+    <li>l'optimisation, la compression d'images,</li>
+    <li>la création de serveur local permettant de tester sur de multiples périphériques en même temps,</li>
+    <li>la simulation de navigateurs fantômes conçus pour parcourir et tester les régressions d'affichage d'une page,</li>
+    <li>etc.</li>
  </ul>
 
 Pour vous représenter le nombre d'actions réalisables par Gulp, sachez que les quelques 2000 plugins recensés représentent tout autant de tâches exécutables au sein de votre projet.
 
 Les pré-requis de Gulp
 Pour accomplir vos premiers exploits avec Gulp, vous n'aurez besoin que de :
-    • node.js
-    • ne pas être trop allergique à la ligne de commande
-
+   <ul>
+    <li>node.js</li>
+    <li>ne pas être trop allergique à la ligne de commande</li>
+</ul>
 ## Installer Gulp
 
 Dès que Node.js est installé, ouvrez un terminal de commande n'importe où, et tapez:
@@ -26,14 +27,17 @@ sudo npm install gulp -g
 
 
 Gulp à présent installé, il lui faudra une combinaison de deux fichiers à la racine d'un projet pour être totalement fonctionnel :
-    • package.json : contient la liste des plugins gulp (ou autres) nécessaires à vos tâches
-    • gulpfile.js : contient la liste des tâches à réaliser
-
+<ul>
+    <li>package.json : contient la liste des plugins gulp (ou autres) nécessaires à vos tâches</li>
+    <li>gulpfile.js : contient la liste des tâches à réaliser</li>
+ </ul>
 
 ## Structure du projet
 Notre projet sera constitué ainsi :
-    • src : dossier de travail, où sont contenus les fichiers .less de développement
-    • dist : dossier de production, où seront créés les fichiers produits par Gulp (ce dossier sera généré, il n'est pas utile qu'il soit présent au départ du projet)
+<ul>
+    <li>src : dossier de travail, où sont contenus les fichiers .less de développement</li>
+    <li> dist : dossier de production, où seront créés les fichiers produits par Gulp (ce dossier sera généré, il n'est pas utile qu'il soit présent au départ du projet)</li>
+</ul>
 Visuellement, cela pourrait ressembler à cette structure assez classique :
 
 <img src="https://www.alsacreations.com/xmedia/doc/original/structure.png" alt="structure">
