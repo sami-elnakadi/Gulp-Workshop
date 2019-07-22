@@ -2,12 +2,14 @@
 
 Gulp est un "Automatiseur de tâches", un task runner comme disent nos amis anglophones, c'est à dire qu'il est capable de lancer des bouts de scripts à votre place tout seul comme un grand.
 Ces tâches dépendent de votre bon vouloir et peuvent être très variées :
-    • des opérations simples telles que minifier ou concaténer du CSS ou du JavaScript,
-    • la création ou la suppression de dossiers ou de fichiers (possibilité de créer un projet à partir de zéro),
-    • l'optimisation, la compression d'images,
-    • la création de serveur local permettant de tester sur de multiples périphériques en même temps,
-    • la simulation de navigateurs fantômes conçus pour parcourir et tester les régressions d'affichage d'une page,
-    • etc.
+<ul>
+    <li>• des opérations simples telles que minifier ou concaténer du CSS ou du JavaScript,</li>
+    <li>• la création ou la suppression de dossiers ou de fichiers (possibilité de créer un projet à partir de zéro),</li>
+    <li>• l'optimisation, la compression d'images,</li>
+    <li>• la création de serveur local permettant de tester sur de multiples périphériques en même temps,</li>
+    <li>• la simulation de navigateurs fantômes conçus pour parcourir et tester les régressions d'affichage d'une page,</li>
+    <li>• etc.</li>
+ </ul>
 
 Pour vous représenter le nombre d'actions réalisables par Gulp, sachez que les quelques 2000 plugins recensés représentent tout autant de tâches exécutables au sein de votre projet.
 
